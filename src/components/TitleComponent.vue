@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>
+    <h1 class="text-success">
         {{ title }}
     </h1>
   </div>
