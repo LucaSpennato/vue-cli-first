@@ -2,7 +2,10 @@
   
   <div class="container-fluid">
     <div class="row">
-        <div id="hero" class="col-12">
+        <div id="hero" class="row col-12">
+            <div class="col-2 offset-3 align-self-center">
+                <TitleComponent/>
+            </div>
         </div>
     </div>
   </div>
@@ -10,8 +13,13 @@
 </template>
 
 <script>
+import TitleComponent from './TitleComponent.vue'
+
 export default {
     name: 'HeroTop',
+    components: {
+        TitleComponent,
+    }
 }
 </script>
 
